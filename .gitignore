@@ -1,4 +1,4 @@
-# Mac system files
+# macOS system
 .DS_Store
 
 # Node modules
@@ -14,13 +14,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Environment variables
+# Environment
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
 
-# Editor folders
+# Editor/IDE
 .vscode/
 .idea/
+*.sublime-project
