@@ -6,6 +6,11 @@ const people = [
   { name: "Eva", age: 30 }
 ];
 
-const teens = people.filter(p => p.age >= 13 && p.age <= 19).map(p => `${p.name} (${p.age})`);
+const teen = [...people].sort((a, b) => a.age - b.age);
+console.log(teen);
+const teen19 = people.filter(p => p.age == 19);
+console.log(`Đếm có ${teen19.length}`);
+
+const teens = people.filter(p => p.age >= 13 && p.age <= 19).map(p => `${p.name} có ${p.age} tuổi`);
 teens.forEach(line => console.log(line));
 
