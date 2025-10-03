@@ -1,0 +1,49 @@
+/* Đặt font Arial và màu chữ trắng cho toàn bộ navbar */
+.navbar {
+  background-color: #474549; /* nền ví dụ */
+  font-family:'Times New Roman', Times, serif;
+}
+
+.navbar * {
+  color: white !important;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+/* Logo thương hiệu */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-right: 50px;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* Hover cho link */
+.nav-link:hover {
+  color: #ffd700 !important; /* vàng khi hover */
+}
+
+/* Nút Search */
+.btn-search {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.btn-search:hover {
+  background-color: #b71800;
+  color: #fff;
+}
+.search-box {
+  width: 300px;   /* bạn chỉnh số px tùy ý */
+  max-width: 100%; /* tránh bị tràn màn hình nhỏ */
+}
+

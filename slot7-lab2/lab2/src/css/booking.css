@@ -1,0 +1,17 @@
+body {
+  background-color: #212529
+; /* màu nền tối giống hình */
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+}
+
+.btn-warning {
+  background-color: #f7c948;
+  border: none;
+  font-weight: bold;
+}
+.btn-warning:hover {
+  background-color: #e0b635;
+}

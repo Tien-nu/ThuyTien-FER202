@@ -1,0 +1,9 @@
+.carousel-item img {
+    width: 100vw;      /* chỉnh chiều cao */
+    height: 60vh;
+    object-fit: cover;    /* cắt ảnh để vừa khung, không méo */
+}
+.caption-img h5{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}

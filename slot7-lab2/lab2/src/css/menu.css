@@ -1,0 +1,22 @@
+.menu-section {
+  min-height: 100vh;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
